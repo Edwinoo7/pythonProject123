@@ -1,0 +1,19 @@
+list=["apple","banana","cherry"]
+print(list)
+x=type(list)
+print(x)
+print(list[0])
+print(list[2])
+print(list[1])
+list[0]="grapes"
+print(list)
+for i in list:
+    print(i)
+    list.insert(2,"orange")
+     print(list)
+    list.remove("orange")
+    print(list)
+    list.pop()
+    print(list)
+    list.clear("grapes")
+    print(list)
